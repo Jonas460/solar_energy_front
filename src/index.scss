@@ -1,0 +1,14 @@
+@use "./components/thems/variables" as vars;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: vars.$primary-color;
+  background-color: vars.$primary-color;
+}
+
+body {
+  background-color: vars.$primary-color;
+}

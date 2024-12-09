@@ -1,0 +1,12 @@
+.alert-message {
+  position: fixed;
+  right: 0;
+  top: 0;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  z-index: 1000;
+  background-color: #ffffff;
+  border-radius: 8px;
+}

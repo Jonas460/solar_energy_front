@@ -48,8 +48,6 @@ const Home = ({ userType, setUserType }) => {
     }
   }, [setUserType, userType])
 
-  console.log(userType)
-
   const validateUser = userType === "admin"
 
   return (
